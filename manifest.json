@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "wait-google-sent-me.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_title": "Wait! Google™ Sent Me."
+   },
+   "description": "Some websites discriminate between readers who arrive from a Google™ search, and those who don't. Push the button to don your mask.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl7hDeS6Kusk1rsivlG7qAMg0KxRjqlAf95bKiNnCzGeh5qVuybSrx9FW3LEntK0nZIV1oUy9PwbCrE3pXwXKpJqITRZ6BBbiZgDOKToeDH1XZVar0zpZAssVz7hF/xIcrpX7/dyty6WPQMr6z4ABoKcIvWdk15g2n+gQsOyDIg+NQXt4FI/tos5hlpJb7qG0eoYFun5xeKhgns9uY6rVEXwhyLe01mcrgflnaK3+lzeMpDOirDpGyJLg9CXXn2o6d3379WXUK1V07mnZoAwGTHd4BLxiE82vGmWVAZOMt24unzFc2iI+dltaxSrzDJ+7s1NeADSdGjuji/uax3ug8QIDAQAB",
+   "manifest_version": 2,
+   "name": "Wait! Google™ Sent Me.",
+   "permissions": [ "http://*/*", "https://*/*", "webRequest", "webRequestBlocking" ],
+   "short_name": "W! GSM.",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
